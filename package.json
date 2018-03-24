@@ -1,0 +1,22 @@
+{
+	"name": "mailer",
+	"version": "1.0.0",
+	"description": "send mail",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"author": "Umang Govil",
+	"license": "ISC",
+	"dependencies": {
+		"agenda": "^1.0.3",
+		"agendash": "^0.4.0",
+		"body-parser": "^1.18.2",
+		"express": "^4.16.1",
+		"http": "0.0.0",
+		"mongoose": "^4.12.5",
+		"morgan": "^1.9.0",
+		"nodemailer": "^4.1.2"
+	}
+}
